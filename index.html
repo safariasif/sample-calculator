@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ماشین حساب</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <form class="calc" name="calc">
+      <input type="text" readonly name="display" class="display" />
+      <input type="button" value="Ac" name="ac" onclick="Ac()" />
+      <input type="button" value="C" name="c" onclick="C()" />
+      <input type="button" value="%" name="%" onclick="data(this.value)" />
+      <input type="button" value="*" name="*" onclick="data(this.value)" />
+      <input type="button" value="9" name="9" onclick="data(this.value)" />
+      <input type="button" value="8" name="8" onclick="data(this.value)" />
+      <input type="button" value="7" name="7" onclick="data(this.value)" />
+      <input type="button" value="/" name="/" onclick="data(this.value)" />
+      <input type="button" value="6" name="6" onclick="data(this.value)" />
+      <input type="button" value="5" name="5" onclick="data(this.value)" />
+      <input type="button" value="4" name="4" onclick="data(this.value)" />
+      <input type="button" value="-" name="-" onclick="data(this.value)" />
+      <input type="button" value="3" name="3" onclick="data(this.value)" />
+      <input type="button" value="2" name="2" onclick="data(this.value)" />
+      <input type="button" value="1" name="1" onclick="data(this.value)" />
+      <input type="button" value="+" name="+" onclick="data(this.value)" />
+      <input type="button" value="0" name="0" onclick="data(this.value)" />
+      <input type="button" value="." name="." onclick="data(this.value)" />
+      <input type="button" value="=" name="=" onclick="Equal()" />
+    </form>
+  </body>
+  <script src="./index.js"></script>
+</html>
